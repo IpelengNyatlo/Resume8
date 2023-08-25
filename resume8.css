@@ -1,0 +1,162 @@
+h1 {
+  color: white;
+  font-size: 20px;
+  background-color: gray;
+  padding: 2px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+body {
+  margin: 40px;
+  border: 5px solid gray;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.head {
+  background-color: gray;
+}
+
+p {
+  font-style: oblique;
+  margin: 5px;
+  padding: 10px;
+}
+
+h2 {
+  background-color: gray;
+  color: white;
+  margin: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+h3 {
+  margin: 10px;
+  margin-left: 30px;
+}
+
+footer {
+  color: blue;
+  font-style: oblique;
+  padding: 10px;
+}
+
+a {
+  color: blue;
+  font-style: oblique;
+}
+
+.name {
+  background-color: gray;
+}
+
+p,
+h1 {
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
+img {
+  border-radius: 300px;
+  padding: 10px;
+  width: 350px;
+  height: 350px;
+}
+
+fieldset {
+  background-color: gray;
+  border-radius: 2%;
+  margin: 12px;
+}
+
+label,
+input,
+select {
+  display: table-row;
+  margin: 1px;
+  padding: 2px;
+}
+
+#name,
+.subject,
+#email {
+  width: 20%;
+  height: 20%;
+  box-sizing: border-box;
+}
+
+#location {
+  display: flex;
+  flex-direction: row;
+}
+
+.submit {
+  width: 10%;
+}
+
+textarea {
+  width: 20%;
+}
+
+.banner {
+  background: gray url(https://i.postimg.cc/hGd95j56/background-banner.jpg);
+  background-repeat: repeat;
+  background-position: 100%;
+}
+
+img {
+  border: 1px solid white;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.banner,
+#location {
+  text-align: center;
+  padding: 20px;
+}
+@media screen and (max-width: 768px) {
+  .banner,
+  #location {
+    padding: 10px;
+    font-size: 1vw;
+  }
+  img {
+    border: 1px solid white;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .banner,
+  #location {
+    padding: 20px;
+  }
+  img {
+    border: 1px solid white;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .banner,
+  #location {
+    padding: 30px;
+  }
+  img {
+    border: 1px solid white;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
